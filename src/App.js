@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import "./App.css";
 
 import { SaveList } from "./components/SaveList/SaveList";

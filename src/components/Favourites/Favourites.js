@@ -6,7 +6,6 @@ import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 import { favlistsAction } from "../../Redux/actions/favlist";
 import { removeListAction } from "../../Redux/actions/lists";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export function Favourites() {
   const movies = useSelector((state) => state.lists.list);
@@ -40,14 +39,6 @@ export function Favourites() {
 
   return (
     <div className="fav">
-
-      {/* {}
-      <div className="icondiv">
-                          <FontAwesomeIcon
-                            icon={faBars}
-                            className="icon2"
-                          />
-                        </div> */}
       <form className="fav-form">
         <div className="fav-container">
           <input type="text" className="fav-input" placeholder="Give the Name to List" onChange={handleChange} />

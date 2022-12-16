@@ -4,7 +4,6 @@ import { NavLink, useLocation } from "react-router-dom";
 import "../SaveList/SaveList.css"
 
 export function SaveList() { 
-  // console.log(movies);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   

@@ -11,25 +11,12 @@ export const moviesAction = (title) => {
     fetch(`http://www.omdbapi.com/?s=${title}&apikey=be5a0bd7`)
       .then((res) => res.json())
       .then((resp) => { 
-        console.log(resp)
         return dispatch({
           type: ACTION_TYPES.GET_Movie,
           payload: resp.Search,
         });
       })
 
-      // .catch((err) => {
-      //   dispatch({
-      //     type: ACTION_TYPES.GET_DATA.ERROR,
-      //     payload: err,
-      //   });
-      // });
   };
 };
 
-// export const basketAction = (data) => {
-//   return {
-//     type: "ADD_TO_BASKET",
-//     payload: data,
-//   };
-// };

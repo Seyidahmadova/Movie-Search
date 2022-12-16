@@ -4,7 +4,6 @@ import { moviesReducer } from "./movies";
 import {favlistsReducer} from "./favlist"
 
 export const reducers = combineReducers({
-  // basket: basketReducer,
   lists: listsReducer,
   movies: moviesReducer,
   favlist: favlistsReducer,

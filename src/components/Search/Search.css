@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
 
 .search-form {
-  /* margin-top: -4%; */
   margin-top: -45px;
   margin-left: -33%;
 }
@@ -11,13 +10,11 @@
   justify-content: space-around;
   padding-top: 64px;
   gap: 20px;
-  /* width: 500px; */
   width: 37%;
   margin-left: 26%;
 }
 
 .search-btn {
-  /* width: 150px; */
   width: 24%;
   padding: 12px 24px;
   background-color: transparent;
@@ -39,7 +36,6 @@
 
 .search-btn:focus{
     cursor: pointer;
-  /* border-color: red; */
   border-radius: 50px;
 }
 
@@ -122,11 +118,26 @@
   }
 }
 
-@media (max-width: 548px) {
+@media (max-width: 590px) {
+
+  .search-container {
+    width: 60%;
+    
+  }
+  .search-lists {
+    width: 600px;
+    margin-left: 4%;
+}
+
+}
+
+@media (max-width: 466px) {
 
   .search-container{
-    width: 70%;
-    /* margin-left: -23%; */
+    
+    width: 80%;
+
+    
   }
   .search-input{
     width: 100%;
@@ -144,7 +155,8 @@
 @media (max-width: 358px) {
 
   .search-container{
-    width: 70%;
+    width: 88%;
+    margin-left: 28%;
   }
   .search-input{
     width: 100%;

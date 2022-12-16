@@ -5,7 +5,6 @@ const initialState = {
 };
 
 export function listsReducer(state = initialState, action) {
-  // console.log("action.payload", action);
   switch (action.type) {
     case ACTION_TYPES.GET_LIST:
       return { ...state, list: [...state.list, action.payload] };

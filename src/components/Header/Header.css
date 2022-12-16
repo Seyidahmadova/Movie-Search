@@ -81,8 +81,8 @@ h1{
 @media (max-width: 569px) {
 
     .main-header-container{
-        width: 52%;
-        margin-left: 38%;
+        width: 60%;
+        margin-left: 37%;
     }
     h1{
         font-size: 18px;
@@ -97,8 +97,8 @@ h1{
 
 @media (max-width: 466px) {
     .main-header-container{
-        width: 74%;
-        margin-left: 60%;
+        width: 75%;
+    margin-left: 54%;
     }
 
     .logo{
@@ -116,10 +116,11 @@ h1{
 }
 
 
-@media (max-width: 401px) {
+
+@media (max-width: 325px) {
     .main-header-container{
-        width: 44%;
-        margin-left: 42%;
+        width: 95%;
+        margin-left: 63%;
     }
 
     .logo{
@@ -136,26 +137,5 @@ h1{
         font-size: 10px;
     } 
 }
-
-/* @media (max-width: 395px) {
-    .main-header-container{
-        width: 45%;
-        margin-left: 40%;
-    }
-
-    .logo{
-        width: 60px;
-        height: 60px;
-    }
-
-    .savelist{
-        font-size: 8px;
-        margin-left: 40%;
-    }
-    
-    h1{
-        font-size: 10px;
-    } 
-} */
 
 
