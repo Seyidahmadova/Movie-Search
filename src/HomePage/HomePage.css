@@ -1,0 +1,14 @@
+
+.icondiv{
+    display: none;
+}
+
+@media (max-width: 548px) {
+    /* .favourite{
+        position: relative;
+        margin-left:-70%;
+    } */
+    .icondiv{
+        display: block;
+    }
+}
