@@ -106,6 +106,10 @@
   height: 28px;
 }
 
+.icondiv{
+  display: none;
+}
+
 
 @media (max-width: 1012px){
   .fav{
@@ -208,7 +212,6 @@
     
   
 }
-
 @media (max-width: 550px) {
 
   .fav-btn{
@@ -217,3 +220,48 @@
   }
 
 }
+
+@media (max-width: 548px) {
+
+  .fav{
+    position: relative;
+    margin-left: -62%;
+    width: 79%;
+    margin-top: -15%;
+
+  }
+
+  .fav-btn{
+    width: 43%;
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+}
+
+@media (max-width: 358px) {
+
+  .fav{
+    position: relative;
+    margin-left: -60%;
+    width: 74%;
+    margin-top: -15%;
+
+  }
+
+  .fav-input{
+    padding: 9px 12px;
+  }
+
+  /* .fav-form {
+    width: 80%;
+} */
+
+  .fav-btn{
+    width: 43%;
+    font-size: 15px;
+    padding: 9px 12px;
+  }
+
+}
+

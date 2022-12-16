@@ -122,10 +122,10 @@
   }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 548px) {
 
   .search-container{
-    width: 50%;
+    width: 70%;
     /* margin-left: -23%; */
   }
   .search-input{
@@ -134,9 +134,29 @@
   }
   .search-btn{
     width: 28%;
-    font-size: 12px;
+    font-size: 15px;
     align-items: center;
   }
 
 }
 
+
+@media (max-width: 358px) {
+
+  .search-container{
+    width: 70%;
+  }
+  .search-input{
+    width: 100%;
+    font-size: 12px;
+    padding: 9px 16px;
+  }
+  .search-btn{
+    width: 28%;
+    font-size: 15px;
+    align-items: center;
+    font-size: 12px;
+    padding: 9px 16px;
+  }
+
+}
