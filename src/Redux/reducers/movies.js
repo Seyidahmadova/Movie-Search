@@ -4,7 +4,6 @@ const initialState = {
   movies: [],
 };
 
-
 export function moviesReducer(state = initialState, action) {
     switch (action.type) {
         case ACTION_TYPES.GET_Movie:
